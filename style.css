@@ -78,6 +78,7 @@ a{
     height:660px;
     width: 254px;
     border-radius: 1rem;
+    z-index:1000;
 }
 .lib-top {
     display: flex;
@@ -301,6 +302,13 @@ h2{
     margin-top:15px;
 
 }
+
+.cards-container-c:hover{
+     background-color:rgb(66, 67, 67);
+    transition-duration: 0.4s;
+    margin-top:10px;
+}
+
 .cont-2{
     display:flex;
 }
@@ -431,4 +439,13 @@ h2{
     appearance: none;
     cursor:pointer;
     background-color:#ddd ;
+ }
+
+ .single-cont{
+
+    height:6000;
+    display:flex;
+    position:static;
+
+
  }
