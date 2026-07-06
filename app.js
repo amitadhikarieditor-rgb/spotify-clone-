@@ -53,3 +53,16 @@ i++;
 
 
 }
+let str= ("I AM IIT PATNA STUDENT OF 2025 BATCH");
+
+function unique(str){
+    let newstr="";
+    for(let i=1; i<str.length; i++){
+        if (!newstr.includes(str[1])){
+            newstr+=str[i];
+        }
+    }
+          console.log(newstr);
+}
+
+unique(str)();
