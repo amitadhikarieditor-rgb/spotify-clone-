@@ -312,6 +312,7 @@ h2{
 
 .cont-2{
     display:flex;
+    flex-wrap: wrap;
 }
 .footer{
     height:250px;
@@ -502,19 +503,15 @@ h2{
     overflow-x:hidden;
  }
 
-  @media(max-width:1284px){
-    .cont-2{
-        display: flex;
-        flex-wrap:wrap;
-        width:80%;
-        overflow: hidden;
-    }
- }
-
-  @media(max-width:1900px){
+  @media(max-width:800px){
     .arrow{
-        width:200%;
-       
+        display:none;
     }
  }
+.h2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 
